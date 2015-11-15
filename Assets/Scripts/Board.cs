@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Board : MonoBehaviour
@@ -39,6 +39,12 @@ public class Board : MonoBehaviour
 		DestroyObject(collider.gameObject);
 		Data.score++;
 		Game.Instance.SendScore();
+	}
+	
+	void Test1()
+	{
+		int a=10;
+		
 	}
 	
 }
